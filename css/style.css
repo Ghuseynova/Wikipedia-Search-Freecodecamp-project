@@ -1,0 +1,72 @@
+.container {
+  margin: 0 100px; }
+  .container img {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto; }
+  .container .search_container {
+    width: 500px;
+    margin: 0 auto; }
+    .container .search_container #search {
+      width: 454px;
+      padding: 14px 20px 14px 20px;
+      border: 3px solid rgba(0, 0, 0, 0.2);
+      border-radius: 8px; }
+      .container .search_container #search:focus {
+        border: 3px solid rgba(0, 0, 0, 0);
+        outline: none;
+        -webkit-box-shadow: 0 0 4px 2px #da92ff;
+                box-shadow: 0 0 4px 2px #da92ff; }
+    .container .search_container .btn_container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .container .search_container .btn_container #search-btn {
+        margin-top: 20px;
+        margin-left: 10px;
+        padding: 13px 16px;
+        text-transform: uppercase;
+        background: #da92ff;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer; }
+        .container .search_container .btn_container #search-btn:focus {
+          outline: none;
+          -webkit-box-shadow: 2px 2px 5px 0 #da92ff;
+                  box-shadow: 2px 2px 5px 0 #da92ff; }
+      .container .search_container .btn_container #random_wiki {
+        margin-top: 20px;
+        margin-right: 10px;
+        padding: 13px 16px;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: #cc00ff;
+        border: none;
+        border-radius: 10px;
+        color: #000;
+        cursor: pointer; }
+        .container .search_container .btn_container #random_wiki:focus {
+          outline: none;
+          -webkit-box-shadow: 2px 2px 5px 0 rgba(204, 0, 255, 0.5);
+                  box-shadow: 2px 2px 5px 0 rgba(204, 0, 255, 0.5); }
+  .container .search_result {
+    padding: 30px 60px; }
+    .container .search_result .search_result-item {
+      margin: 10px;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.1);
+      border-radius: 10px; }
+      .container .search_result .search_result-item a {
+        display: inline-block;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 10px;
+        font-size: 16px;
+        color: #cc00ff; }
+
+/*# sourceMappingURL=style.css.map */
